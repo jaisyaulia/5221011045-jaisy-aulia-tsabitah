@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaisy</title>
+    <!-- Internal CSS -->
+    <!-- Selector
+        # = Id
+        . = Class
+        langsung = elemen
+    -->
+    <style>
+        <body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        nav ul li a{
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        #logo{
+            width: 200px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            margin: 10px;
+        }
+
+        nav ul li a:hover{
+            background-color: aqua;
+            color:black;
+        }
+
+        nav a{
+            color: black;
+            text-decoration: none;
+        }
+
+        #awal{
+            background-color: whitesmoke;
+            display: flex;
+            align-items: center;
+        }
+        div img{
+            transform: scaleX();
+            width: 450px;
+        }
+        div div{
+            padding: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <img id="logo"src="jaisylogo.jpeg" alt="" style="width:100px"> <!-- Elemen 1 -->
+        <ul> <!-- Elemen 2 -->
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang Saya</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#">Login</a> <!-- Elemen 3 -->
+    </nav>
+    <div id="awal">
+        <img src="jaisy1.jpeg" style="width:200px">
+        <div>
+            <h1> HELLO! </h1>
+            <h3> Pemrograman Web </h3>
+            <h3> Nama   : Jaisy Aulia Tsabitah </h3>
+            <h3> Nim    : 5221011045 </h3>
+            <h5> Perkenalkan saya Jaisy Aulia Tsabitah biasa dipanggil Je. Lahir pada tanggal 7 februari 2004 di Indramayu. 
+                <hr>Saya mahasiswi dari Universitas Teknologi Yogyakarta dengan program studi Teknik Komputer.</h5>
+        </div>
+    </div>
+</body>
+</html>
